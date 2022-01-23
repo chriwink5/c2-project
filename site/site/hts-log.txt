@@ -1,0 +1,13 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 09 Nov 2021 16:58:11 at https://www.gamestop.at/PC/Games/114823/grand-theft-auto-v +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://www.gamestop.at/PC/Games/114823/grand-theft-auto-v -O1 "D:\itp project\site\site" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:58:36	Error: 	"Bad Request" (400) at link https://www.googletagmanager.com/gtm.js?id= (from https://www.gamestop.at/PC/Games/114823/grand-theft-auto-v)
+16:59:04	Error: 	"Not Found" (404) at link https://www.gamestop.at/Views/Locale/Content/Images/padlock_closed.png (from https://www.gamestop.at/Content/coreNewStyles.css?v=8uu4xkiDnYJanMcTmtC3vaFydQdpGKeDA2dgFV7aZRA1)
+
+HTTrack Website Copier/3.49-2 mirror complete in 55 seconds : 203 links scanned, 200 files written (6422461 bytes overall) [4014428 bytes received at 72989 bytes/sec], 2985872 bytes transferred using HTTP compression in 13 files, ratio 16%, 29.1 requests per connection
+(2 errors, 0 warnings, 0 messages)
